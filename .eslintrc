@@ -1,0 +1,7 @@
+{
+    "plugins": ["wdio"],
+    "extends": ["plugin:wdio/recommended", "plugin:prettier/recommended"],
+    "rules": {
+        "prettier/prettier": "error"
+    }
+}
