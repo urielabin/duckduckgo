@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "",
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
     "test-api": ""
   },
   "devDependencies": {
@@ -16,11 +16,13 @@
     "@wdio/mocha-framework": "^6.0.13",
     "@wdio/spec-reporter": "^6.0.12",
     "@wdio/sync": "^6.0.12",
+    "chai": "^4.2.0",
     "chromedriver": "^80.0.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-wdio": "^6.0.12",
+    "mocha": "^7.1.1",
     "prettier": "2.0.2",
     "wdio-chromedriver-service": "^6.0.1"
   }
