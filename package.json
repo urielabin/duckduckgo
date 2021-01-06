@@ -16,7 +16,7 @@
         "@wdio/mocha-framework": "^6.0.13",
         "@wdio/spec-reporter": "^6.0.12",
         "@wdio/sync": "^6.0.12",
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "chai": "^4.2.0",
         "chromedriver": "^80.0.1",
         "eslint": "^6.8.0",
